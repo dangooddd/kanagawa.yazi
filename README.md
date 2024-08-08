@@ -13,17 +13,12 @@
 ## 🎨 Installation
 
 ```bash
-# Linux/macOS
-git clone https://github.com/dangooddd/kanagawa.yazi.git ~/.config/yazi/flavors/kanagawa.yazi
-
-# Windows
-git clone https://github.com/dangooddd/kanagawa.yazi.git %AppData%\yazi\config\flavors\kanagawa.yazi
+ya pack -a dangooddd/kanagawa
 ```
 
 ## ⚙️ Usage
 
-Add the these lines to your `theme.toml` configuration file to use it:
-
+Add these lines to your `theme.toml` configuration file to use it:
 
 ```toml
 [flavor]
