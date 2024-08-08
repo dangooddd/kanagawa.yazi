@@ -1,7 +1,7 @@
 # general 
 [manager]
 marker_copied   = { fg = "#98bb6c", bg = "#98bb6c" } # green
-marker_cut      = { fg = "#e46876", bg = "#e46876" } 
+marker_cut      = { fg = "#e46876", bg = "#e46876" } # red
 marker_marked   = { fg = "#957fb8", bg = "#957fb8" } # magenta
 marker_selected = { fg = "#ffa066", bg = "#ffa066" } # cyan
 
@@ -36,12 +36,12 @@ tab_active   = { reversed = true }
 tab_inactive = {}
 tab_width    = 1
 
-# white - green
-count_copied   = { fg = "#dcd7ba", bg = "#98bb6c" }
-# white - red
-count_cut      = { fg = "#dcd7ba", bg = "#e82424" }
-# white - yellow
-count_selected = { fg = "#dcd7ba", bg = "#6c384" }
+# dark - green
+count_copied   = { fg = "#1f1f28", bg = "#98bb6c" }
+# dark - red
+count_cut      = { fg = "#1f1f28", bg = "#e46876" }
+# dark - yellow
+count_selected = { fg = "#1f1f28", bg = "#6c384" }
 
 border_symbol = "│"
 border_style = { fg = "#dcd7ba"}
