@@ -15,14 +15,14 @@ separator_open = ""
 separator_close = ""
 separator_style = { fg = "reset", bg = "#363646" }
 
-# dark bg
-mode_normal = { fg = "#1f1f28", bg = "#85a6ea", bold = true }
-mode_select = { fg = "#1f1f28", bg = "#957fb8", bold = true }
-mode_unset  = { fg = "#1f1f28", bg = "#e6c384", bold = true }
+# default bg
+mode_normal = { fg = "#1f1f28", bg = "#85a6ea", bold = true } # blue
+mode_select = { fg = "#1f1f28", bg = "#957fb8", bold = true } # magenta
+mode_unset  = { fg = "#1f1f28", bg = "#e6c384", bold = true } # yellow
 
 # sumiInk3 bg
 progress_label  = { fg = "#85a6ea", bg = "#363646", bold = true }
-# sumiInk3 fg
+# sumiInk3 - default bg
 progress_normal = { fg = "#363646", bg = "#1f1f28" }
 progress_error  = { fg = "#363646", bg = "#1f1f28" }
 
@@ -36,18 +36,16 @@ tab_active   = { reversed = true }
 tab_inactive = {}
 tab_width    = 1
 
-# dark - green
-count_copied   = { fg = "#1f1f28", bg = "#98bb6c" }
-# dark - red
-count_cut      = { fg = "#1f1f28", bg = "#e46876" }
-# dark - yellow
-count_selected = { fg = "#1f1f28", bg = "#6c384" }
+# default bg
+count_copied   = { fg = "#1f1f28", bg = "#98bb6c" } # green
+count_cut      = { fg = "#1f1f28", bg = "#e46876" } # red
+count_selected = { fg = "#1f1f28", bg = "#6c384" }  # yellow
 
 border_symbol = "│"
-border_style = { fg = "#dcd7ba"}
+border_style = { fg = "#dcd7ba"} # white
 
 [select]
-border   = { fg = "#7fb4ca" } #blue
+border   = { fg = "#7fb4ca" } # blue
 active   = { fg = "#938aa9", bold = true } # magenta
 inactive = {}
 
