@@ -39,7 +39,7 @@ tab_width    = 1
 # default bg
 count_copied   = { fg = "#1f1f28", bg = "#98bb6c" } # green
 count_cut      = { fg = "#1f1f28", bg = "#e46876" } # red
-count_selected = { fg = "#1f1f28", bg = "#6c384" }  # yellow
+count_selected = { fg = "#1f1f28", bg = "#e6c384" }  # yellow
 
 border_symbol = "│"
 border_style = { fg = "#dcd7ba"} # white
