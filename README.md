@@ -22,7 +22,7 @@ Add these lines to your `theme.toml` configuration file to use it:
 
 ```toml
 [flavor]
-use = "kanagawa"
+dark = "kanagawa"
 ```
 
 ## 📜 License
