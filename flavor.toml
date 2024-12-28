@@ -26,6 +26,9 @@ cwd = { fg = "#e6c384" }
 hovered = { reversed = true }
 preview_hovered = { reversed = true }
 
+find_keyword = { fg = "#ffa066", bg = "#1f1f28" }
+find_position = {}
+
 tab_active = { reversed = true }
 tab_inactive = {}
 tab_width = 1
