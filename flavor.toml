@@ -42,9 +42,9 @@ border_style = { fg = "#dcd7ba" }
 normal_main = { fg = "#1f1f28", bg = "#7e9cd8" }
 normal_alt = { fg = "#7e9cd8", bg = "#2a2a37" }
 select_main = { fg = "#1f1f28", bg = "#957fb8" }
-select_alt = { fg = "#7e9cd8", bg = "#2a2a37" }
+select_alt = { fg = "#957fb8", bg = "#2a2a37" }
 unset_main = { fg = "#1f1f28", bg = "#e6c384" }
-unset_alt = { fg = "#7e9cd8", bg = "#2a2a37" }
+unset_alt = { fg = "#e6c384", bg = "#2a2a37" }
 
 
 [status]
