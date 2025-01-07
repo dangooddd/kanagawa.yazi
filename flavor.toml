@@ -7,10 +7,12 @@
 # fujiWhite     "#dcd7ba" fg
 # fujiGray      "#727169"
 # peachRed      "#ff5d62"
+# autumnRed     "#c34043"
 # crystalBlue   "#7e9cd8"
 # waveRed       "#e46876"
 # carpYellow    "#e6c384"
 # springGreen   "#98bb6c"
+# autumnGreen   "#76946a"
 # oniViolet     "#957fb8"
 # waveAqua1     "#6a9589"
 # surimiOrange  "#ffa066"
@@ -108,15 +110,27 @@ title_info = { fg = "#98bb6c" }
 title_warn = { fg = "#e6c384" }
 title_error = { fg = "#ff5d62" }
 
-# files
 [filetype]
 rules = [
+    # images
     { mime = "image/*", fg = "#e6c384" },
+
+    # media
     { mime = "{audio,video}/*", fg = "#957fb8" },
-    { mime = "application/{,g}zip", fg = "#e46876" },
-    { mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#e46876" },
+
+    # archives
+    { mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#e46876" },
+
+    # documents
     { mime = "application/{pdf,doc,rtf,vnd.*}", fg = "#6a9589" },
-    { name = "*", is = "orphan", fg = "#e46876" },
-    { name = "*", is = "exec", fg = "#957fb8" },
+
+    # broken links
+    { name = "*", is = "orphan", fg = "#c34043" },
+
+    # executables
+    { name = "*", is = "exec", fg = "#76946a" },
+
+    # fallback
+    { name = "*", fg = "#dcd7ba" },
     { name = "*/", fg = "#7e9cd8" },
 ]
