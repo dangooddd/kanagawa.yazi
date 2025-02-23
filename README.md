@@ -18,6 +18,10 @@ ya pack -a dangooddd/kanagawa
 
 ## ⚙️ Usage
 
+> [!Note]
+> To achieve the look like in the screenshot you also need to install
+> [full-border](https://github.com/yazi-rs/plugins/tree/main/full-border.yazi) plugin!
+
 Add these lines to your `theme.toml` configuration file to use it:
 
 ```toml
