@@ -1,10 +1,11 @@
 ## Color palette
 ## Check https://github.com/rebelot/kanagawa.nvim for more details
-# sumiInk0      "#16161d"
+# sumiInk0      "#16161d" dark bg
 # sumiInk3      "#1f1f28" bg
 # sumiInk4      "#2a2a37"
 # sumiInk6      "#54546d"
 # fujiWhite     "#dcd7ba" fg
+# oldWhite      "#c8c093" dark fg
 # fujiGray      "#727169"
 # peachRed      "#ff5d62"
 # autumnRed     "#c34043"
@@ -53,9 +54,9 @@ unset_alt = { fg = "#e6c384", bg = "#2a2a37" }
 
 
 [status]
-separator_open = ""
-separator_close = ""
-separator_style = { fg = "reset", bg = "#2a2a37" }
+sep_left = { open = "", close = "" }
+sep_right = { open = "", close = "" }
+overall = { fg = "#c8c093", bg = "#16161d" }
 
 progress_label = { fg = "#7e9cd8", bg = "#2a2a37", bold = true }
 progress_normal = { fg = "#2a2a37", bg = "#1f1f28" }
