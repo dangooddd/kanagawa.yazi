@@ -34,13 +34,13 @@ find_position = {}
 
 count_copied = { fg = "#1f1f28", bg = "#98bb6c" }
 count_cut = { fg = "#1f1f28", bg = "#e46876" }
-count_selected = { fg = "#1f1f28", bg = "#e6c384" }
+count_selected = { fg = "#1f1f28", bg = "#ffa066" }
 
 border_symbol = "│"
 border_style = { fg = "#dcd7ba" }
 
 [tabs]
-active = { fg = "#1f1f28", bg = "#7e9cd8", bold = true }
+active = { fg = "#1f1f28", bg = "#7e9cd8" }
 inactive = { fg = "#7e9cd8", bg = "#2a2a37" }
 
 sep_inner = { open = "", close = "" }
