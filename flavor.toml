@@ -1,5 +1,5 @@
-## Color palette
-## Check https://github.com/rebelot/kanagawa.nvim for more details
+# Color palette
+# Check https://github.com/rebelot/kanagawa.nvim for more details
 # sumiInk0      "#16161d" dark bg
 # sumiInk3      "#1f1f28" bg
 # sumiInk4      "#2a2a37"
@@ -106,11 +106,7 @@ cand = { fg = "#7e9cd8" }
 desc = { fg = "#54546d" }
 
 [help]
-on = { fg = "#7aa89f" }
-run = { fg = "#957fb8" }
-desc = {}
 hovered = { reversed = true, bold = true }
-footer = { fg = "#1f1f28", bg = "#dcd7ba" }
 
 [notify]
 title_info = { fg = "#98bb6c" }
